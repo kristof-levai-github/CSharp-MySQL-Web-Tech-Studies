@@ -1,0 +1,76 @@
+body{
+    background-color: #FFEFD5 ;
+    color: #8B4513 
+}
+
+header{
+    background-image: url("szines.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+ul, li{
+    list-style-image: url("chili-pepper-icon.gif");
+}
+
+table{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+    font-weight: bold;
+    
+}
+
+td{
+    border: black solid 1px;
+}
+
+nav{
+    float: left;
+    width: 30%;
+}
+
+article{
+    float: right;
+    width: 65%;
+}
+
+#container{
+    width: 80%;
+    margin: auto;
+}
+
+#jobb{
+    text-align: left;
+    width: 120px;
+}
+
+#zold{
+    background-color: chartreuse;
+}
+
+#piros{
+    background-color: crimson;
+}
+
+#lila{
+    background-color: darkmagenta;
+}
+
+#lista{
+    background-color: darkturquoise;
+}
+
+p{
+    text-align: justify;
+}
+
+.fejlec{
+    height: 200px;
+}
+
+#fejlecszoveg{
+    text-align: center;
+    margin: auto;
+}

@@ -1,0 +1,20 @@
+(1.feladat:)
+CREATE DATABASE diafilmek CHARACTER set utf8 COLLATE utf8_hungarian_ci;
+
+(3.feladat:)
+SELECT cim, kiadasiev from film where kiadasiev>2000 ORDER by cim;
+
+(4.feladat:)
+SELECT cim, kocka, kiadasiev FROM film WHERE cim like "%farkas%";
+
+(5.feladat:)
+SELECT DISTINCT kiado.nev from kiado INNER JOIN film ON film.kiadoid=kiado.id WHERE film.cim like "%Sicc%";
+
+(6.feladat:) 
+SELECT film.cim, COUNT(kiado.nev) as "kiadasok szama" from film INNER join kiado on film.kiadoid=kiado.id GROUP by film ORDER by "kiadasok szama" DESC limit 1;
+
+(7.feladat:)
+SELECT film.kiadasev, COUNT(*) FROM film WHERE film.kiadasev!=0 GROUP BY film.kiadasev;
+
+(8.feladat:)
+SELECT DISTINCT(cim) FROM film WHERE szinese=-1 AND film.cim in (SELECT cim FROM film WHERE szinese=0);  
