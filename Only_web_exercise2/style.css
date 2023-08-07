@@ -1,0 +1,38 @@
+body{
+    background-image: url("abrosz.png");
+    font-size: 20px;
+}
+
+header{
+    background-image: url("hatter.jpg");
+    height: 300px;
+    background-size: 100%;
+    padding-top: 50px;
+}
+
+#headerSzoveg{
+    text-align: center;
+}
+
+#container{
+    width: 40%;
+    margin: auto;
+}
+
+#kepBalra{
+   width: 80%;
+   height: 80%;
+}
+
+.kepekEgymasMelle{
+    width: 80%;
+   height: 80%;
+}
+
+#body2{
+    margin-top: 20px;
+}
+
+td{
+    margin:10px;
+}
