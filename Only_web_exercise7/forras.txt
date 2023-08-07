@@ -1,0 +1,12 @@
+Háromszögszámok
+A háromszögszámoknak nevezik a matematikában azokat a számokat, amelyek előállnak az első valahány egymást követő természetes szám összegeként. A sokszögszámok közé tartoznak. Nevüket onnan nyerték, hogy kavicsokkal vagy más módon kirakva őket, szabályos háromszög alakba rendezhetőek.
+Formálisan kifejezve a háromszögszámok az 1+2+3+…+(n-1)+n alakban felírható számok.
+A számtani sorozat összegképletét felhasználva explicit képlet adható az n-edik háromszögszámra:
+A háromszögszámok sorozatának tagjait h-val jelölve a sorozat bármely eleméből a rákövetkező a hn=hn-1+n (ahol n>1) összefüggéssel számítható ki.
+Az első 50 eleme
+1, 3, 6, 10, 15, 21, 28, 36, 45, 55, 66, 78, 91, 105, 120, 136, 153, 171, 190, 210, 231, 253, 276, 300, 325, 351, 378, 406, 435, 465, 496, 528, 561, 595, 630, 666, 703, 741, 780, 820, 861, 903, 946, 990, 1035, 1081, 1128, 1176, 1225, 1275.
+Érdekességek
+Minden páros tökéletes szám háromszögszám.
+Minden pozitív egész felírható legfeljebb három háromszögszám összegeként.
+Két egymás utáni háromszögszám összege négyzetszám.
+Számítás

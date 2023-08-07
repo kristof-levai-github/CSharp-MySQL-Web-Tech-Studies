@@ -1,0 +1,48 @@
+body{
+  padding: 5px 10px 0px;
+  margin: 0px;
+  text-align: justify;
+  background-color: #e4e4ff;
+}
+
+p:first-letter {
+  margin-left:15px;
+}
+
+#elemek:first-letter {
+  margin-left:0px;
+}
+
+h1{
+  text-align: center;
+}
+
+h1,h2{
+  color:#00008B;
+}
+
+img.keplet{
+  height: 2em;
+  vertical-align: -0.5em;
+}
+
+#sorozatkep{
+  width: 200px;
+  float:left;
+  margin: 10px;
+}
+
+#elemek{
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.lista li{
+  font-style:italic;
+}input[type="text"],input[type="number"] 
+{
+  width: 30px;
+}
