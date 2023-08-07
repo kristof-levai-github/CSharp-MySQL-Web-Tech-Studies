@@ -1,0 +1,33 @@
+h1 {
+    text-shadow: 2px 2px brown;
+}
+
+h5 {
+    font-weight: normal;
+    font-style: italic;
+}
+
+.nevek{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+body{
+    background-color: bisque;
+}
+
+p{
+    text-align: justify;
+    line-height: 180%;
+}
+
+a{   
+    color: brown;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    text-decoration: none;
+}
+
