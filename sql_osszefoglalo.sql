@@ -267,5 +267,3 @@ SELECT student_id, date, score, maxscore FROM tests, scores WHERE date='2014-08-
 SELECT scores.student_id, test.date, scores.score, tests.maxscore FROM test, scores WHERE date='2014-08-25' AND tests.test_id = scores.test_id;
 
 SELECT students.student_id, CONCAT(student.first_name, " ", students.last_name) AS Name, COUNT(absences.date) AS absences FROM students, absences WHERE students.student_id = absences.student_id GROUP BY students.student_id;
-
-#39.perc 
