@@ -1,0 +1,87 @@
+body {
+  background-image: url("hatter.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: sans-serif;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-attachment: fixed;
+}
+
+#content {
+  background-color: rgba(255, 255, 255, 0.6);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 40px;
+  width: 980px;
+}
+
+.frame {
+  width: 490px;
+  float: right;
+  padding: 0px 5px 5px;
+  overflow: hidden;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(227, 225, 233, 0.8);
+}
+
+.frame img {
+  width: 499px;
+  position: relative;
+  left: -5px;
+  border-bottom: 2px solid black;
+}
+
+h1,
+h2 {
+  font-variant: small-caps;
+  font-style: italic;
+}
+
+p.imgtitle {
+  font-size: 1.1em;
+  margin: 0;
+  font-style: italic;
+  text-align: center;
+  line-height: 130%;
+}
+
+table,
+.frame {
+  border: 3px solid green;
+  text-align: center;
+  border-collapse: collapse
+}
+
+thead{
+  background-color: darkgreen;
+  color: white;
+}
+
+td{
+  background-color: rgba(227, 225, 233, 0.8);
+  border: 1px solid black;
+  padding: 10px;
+}
+
+a:link,
+a:visited {
+  color: blue;
+}
+
+p{
+  text-align: justify;
+  text-indent: 25px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color:yellow
+}
