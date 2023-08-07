@@ -1,0 +1,84 @@
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 1.2em;
+  min-height: 1200px;
+  margin: 20px 40px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 32px;
+  font-style: italic;
+}
+
+#img-wrap {
+  padding-right: 20px;
+  padding-left: 20px;
+  position: relative;
+  float: right;
+  width: 40%;
+  text-align: right;
+}
+
+img {
+  width: 90%;
+}
+
+p {
+  padding: 0px 30px;
+  text-align: justify;
+}
+
+.description {
+  position: absolute;
+  text-align: center;
+  width: 60%;
+  color: white;
+  background-color: rgba(2, 23, 59, 0.7);
+  top: 77%;
+  left: 23%;
+  font-weight: bold;
+  border-radius: 26px;
+  text-align: center;
+  padding: 10px;
+}
+
+ul {
+  line-height: 32px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  padding-right: 230px;
+}
+
+em {
+  font-weight: bold;
+  font-style: italic;
+}
+
+h5 {
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Új szelektorok: */
+
+#content{
+  width: 100%;
+}
+
+#title-wrap{
+  text-align: center;
+}
+
+a{
+  color:red
+}
+
+a:hover{
+  color: blue;
+}
