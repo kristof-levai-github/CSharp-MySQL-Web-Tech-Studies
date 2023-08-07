@@ -1,0 +1,73 @@
+#content {
+    float:left;
+    background-color: black;
+    border-left: lightblue;
+    border-left: lightblue;
+}
+
+.hasab {
+    position: relative;
+    color:lightblue;
+    height: 1000px;
+    background-color: darkblue;
+    border:1px solid black;
+    box-shadow: 2px 2px gray;
+    width: 280px;
+    float: left;
+}
+
+div img {
+
+    border: 2px solid lightblue;
+    clear: both;
+}
+h2 {
+    text-align: right;
+    font-variant: small-caps;
+}
+
+header {
+    width:115%;
+    height: 150px;
+    background-color: black;
+    margin-left:-15%;
+    padding-left:15%;
+    border-radius: 75px;
+    position: relative;
+}
+header h1 {
+    color: lightblue;
+    text-align: right;
+    font-variant: small-caps;
+    bottom: 0px;
+    text-shadow: 3px 3px darkblue;
+    position: absolute;
+    right: 200px;
+}
+header img {
+    position: absolute;
+    top:0px;
+    right:0px;
+    height: 150px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.hires {
+    background-color: lightskyblue;
+    color: black;
+
+}
+
+body{
+    background-color: #1e90ff;
+}
+
+header{
+    font-weight: bold;
+    font-size: 45;
+}
+
+p{
+    text-align: justify;
+}
