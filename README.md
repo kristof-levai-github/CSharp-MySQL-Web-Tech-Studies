@@ -2,6 +2,8 @@
 
 Welcome to the C#, MySQL, and Web Tech Studies and Projects repository! This repository serves as an archive of projects and studies related to C#, MySQL database, and web technologies that I worked on during my school years.
 
+__Note: I've made significant progress in web technologies, and the files here only reflect my previous understanding. Please visit my website for more recent projects. 
+
 # Contents
 
 In this repository, you'll find a diverse range of projects and studies focused on C#, MySQL, and web technologies. Each project or study resides in its respective folder.
